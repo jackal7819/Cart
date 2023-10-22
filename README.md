@@ -6,7 +6,7 @@ This is a Shopping Cart Application project. The project involves building a sho
 
 The Shopping Cart Application is a web-based e-commerce platform that allows users to add items to their shopping cart, adjust quantities, and view the total cost of the items. It offers a rich set of features to provide a seamless shopping experience.
 
-**[Link to the Project](https://your-project-link.com)**
+**[Link to the Project](https://cart-app-z16o.onrender.com)**
 
 ## Technologies Used
 
