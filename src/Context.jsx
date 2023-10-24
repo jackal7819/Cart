@@ -8,13 +8,14 @@ import {
 } from './actions';
 import { createContext, useContext, useReducer } from 'react';
 
+import cartItems from './data';
 import reducer from './reducer';
 
 const AppContext = createContext();
 
 const initialState = {
 	loading: false,
-	cart: [],
+	cart: new Map(cartItems.map((item) => [item.id, item])),
 };
 
 export const AppProvider = ({ children }) => {
